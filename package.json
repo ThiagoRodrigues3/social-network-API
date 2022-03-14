@@ -1,0 +1,28 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "Backend API for a social network.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoRodrigues3/social-network-API.git"
+  },
+  "author": "Thiago Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoRodrigues3/social-network-API/issues"
+  },
+  "homepage": "https://github.com/ThiagoRodrigues3/social-network-API#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
